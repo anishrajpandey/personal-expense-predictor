@@ -12,7 +12,7 @@ fig, ax = plt.subplots(figsize=(10, 6))
 ax.plot(weekly_spending.index, weekly_spending.values, marker='o', linestyle='-')
 ax.set_xlabel('Date')
 ax.set_ylabel('Weekly Cost')
-ax.set_title('Weekly Spendindx  sg O ver Time')
+ax.set_title('Weekly Spending Over Time')
 plt.grid(True)
 plt.show()
 
